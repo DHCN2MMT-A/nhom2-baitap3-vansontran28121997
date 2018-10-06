@@ -1,0 +1,91 @@
+
+
+ ul {
+        list-style-type: none;
+        background-color: aqua;
+        overflow: hidden;
+        width: 100%;
+        text-align: right;
+}
+ li {
+     display: inline-block;
+ }
+ body{
+     background-color: aqua;
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    border: 1px solid cyan;
+ }
+ img {
+     border-radius: 50%;
+     width: 250px;
+ }
+ u{
+     color:blue;
+     text-align: center;
+ }
+ em {
+    font-weight: bold;
+ }
+ #EarlyLife,#Career,#PersonalLife,#InterestingFacts{
+     color: blue;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     text-decoration: underline;
+     text-align: center;
+ }
+ div p{
+     margin:auto;
+     border: 1px solid cyan;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: left;
+ }
+ #Honours{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+ }
+ .bright { 
+     color: red;
+ }
+ .bright a:nth-child(odd){
+     padding: 5px;
+     background-color:cadetblue;
+     text-decoration: none;
+     color:white;
+ }
+ .bright a:nth-child(even){
+    padding: 5px;
+    background-color:orangered;
+    text-decoration: none;
+    color:white;
+}
+.interesting ol{
+    font: 100 30px/1.2 'Great Vibes', Helvetica, sans-serif;
+    color:blue;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+    font-size: 20px;
+    text-align: left;
+}
+body {
+    counter-reset: number; 
+  }
+.interesting li::before {
+    counter-increment: number;
+    content: counter(number);
+  }
+.interesting h3{
+    color: blue;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     text-decoration: underline;
+     text-align: center;
+}
+.interesting iframe{
+    width: 600px;
+    height: 300px;
+    float: left;
+}
